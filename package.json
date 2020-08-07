@@ -1,0 +1,28 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duraimurugan/express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duraimurugan/express/issues"
+  },
+  "homepage": "https://github.com/Duraimurugan/express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
