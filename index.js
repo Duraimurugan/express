@@ -25,6 +25,11 @@ app.get('/', (req, res) => {
     res.send(buffer);
 });
 
+app.get(/big.*/, (req, res, next) => {
+    console.log('big user');
+    next();
+});
+
 app.get('/:username', (req, res) => {
     let username = req.params.username;
     res.send(username);
